@@ -1,0 +1,32 @@
+@media screen and (max-width:700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .carrosel-livros {
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width:300px) {
+
+    .livro-principal {
+        height: auto;
+    }
+
+    .botao {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao {
+        width: 50%;
+    }
+}
